@@ -1,0 +1,110 @@
+html{
+    background: url(./images/bg-desktop.svg)   hsl(228, 45%, 44%);
+    height: 100%;
+}
+
+header{
+    color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 20px;
+    padding: 25px;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 100px 15px 100px 15px;
+}
+
+ .ilustra{
+    display: flex;
+    justify-content: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+ }
+ 
+
+.infor {
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding: 50px;
+    
+}
+
+.botao{
+    width: 150px;
+    padding: 12px;
+    border-radius: 25px;
+    color:  hsl(300, 69%, 71%);
+    height: 300;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: white;
+    padding: 30px 100px 30px 30px;
+}
+
+.social a {
+    color: white;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+@media(max-width: 375px) {
+
+    html{
+        height: 100%;
+    }
+
+    .logo{
+        width: 110px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        max-height: 100vh;
+        margin-top: 480px;
+        font-size: 12.5px;
+}
+
+.ilustra-img{
+    width: 300px;
+}
+
+
+
+}
